@@ -1,0 +1,18 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with high carbohydrate intake and proper meal timing around 2-hour morning run",
+      "restrictions": "No nuts, no dairy"
+    },
+    "solution_criteria": [
+      "Meal plan covers full day with 3 meals and snacks appropriately timed around training session",
+      "Carbohydrate-rich foods dominate (60%+ of calories) suitable for endurance athlete",
+      "All meals and snacks are nut-free and dairy-free",
+      "Plan is concise and fits on one page"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a professional endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around training sessions, with common food allergies (nuts, dairy) to accommodate"
+  }
+]

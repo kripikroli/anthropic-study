@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training Athlete\n\nHere is a one-day meal plan for an athlete training for a marathon with high carbohydrate intake and proper meal timing around a 2-hour morning run:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (110g), Fat (85g), Carbs (450g)\n\n## Meal Plan:\n\n* **Pre-Run Breakfast (6:00 AM - 30 minutes before run):** Banana (150g) with coconut oil spread (15g) on white bread (50g). Orange juice (250ml).\n    * Protein: 4g, Fat: 8g, Carbs: 65g\n\n* **Post-Run Recovery Meal (8:30 AM - within 30 minutes of finishing):** White rice (150g cooked) with grilled chicken breast (120g), steamed carrots (100g), and olive oil (10ml).\n    * Protein: 35g, Fat: 10g, Carbs: 60g\n\n* **Mid-Morning Snack (11:00 AM):** Rice cakes (40g) with strawberry jam (30g) and honey (15g). Sports drink (300ml).\n    * Protein: 3g, Fat: 2g, Carbs: 65g\n\n* **Lunch (1:00 PM):** Turkey sandwich with white bread (120g), lean ground turkey (130g), lettuce (50g), tomato (60g), and mayo (20g). Side of sweet potato (150g boiled).\n    * Protein: 35g, Fat: 12g, Carbs: 85g\n\n* **Afternoon Snack (4:00 PM):** Bagel (90g) with coconut butter (20g) and banana slices (100g).\n    * Protein: 8g, Fat: 8g, Carbs: 75g\n\n* **Dinner (7:00 PM):** Baked white fish (150g - cod or tilapia), boiled potatoes (200g), steamed green beans (150g), and olive oil (15ml).\n    * Protein: 35g, Fat: 20g, Carbs: 70g\n\n* **Evening Snack (9:30 PM):** Rice pudding made with coconut milk (200g) and white rice (50g cooked).\n    * Protein: 10g, Fat: 25g, Carbs: 30g\n\nThis meal plan prioritizes easily digestible carbohydrates for sustained energy during marathon training, with strategic meal timing to fuel the morning run and support recovery. All foods are nut-free and dairy-free while maintaining optimal macronutrient ratios for endurance performance.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training with high carbohydrate intake and proper meal timing around 2-hour morning run",
+        "restrictions": "No nuts, no dairy"
+      },
+      "solution_criteria": [
+        "Meal plan covers full day with 3 meals and snacks appropriately timed around training session",
+        "Carbohydrate-rich foods dominate (60%+ of calories) suitable for endurance athlete",
+        "All meals and snacks are nut-free and dairy-free",
+        "Plan is concise and fits on one page"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a professional endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around training sessions, with common food allergies (nuts, dairy) to accommodate"
+    },
+    "score": 8,
+    "reasoning": "The solution successfully meets all three mandatory requirements with clear daily caloric total, complete macronutrient breakdown, and detailed meals with exact portions and timing. All foods are nut-free and dairy-free as required. The meal timing is strategically designed around the 2-hour morning run. The carbohydrate percentage (56%) is very close to the 60%+ target and remains appropriate for marathon training. The plan covers a full day with 3 meals and 4 snacks appropriately distributed. Minor issues include the carb percentage being slightly under 60% and some length/formatting concerns, but these don't violate mandatory requirements. The internal inconsistency in fat macros (110g vs 85g stated) is a minor documentation error that doesn't affect the actual meal plan quality."
+  }
+]
