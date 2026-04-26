@@ -1,14 +1,14 @@
 [
   {
-    "task": "Parse an AWS S3 bucket name from a full S3 URI (e.g., 's3://my-bucket-name/path/to/file.txt') and extract just the bucket name",
+    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message using a regular expression",
     "format": "regex"
   },
   {
-    "task": "Create a JSON CloudFormation template snippet that defines an IAM role with a trust policy allowing EC2 instances to assume it",
+    "task": "Create a JSON configuration object for an AWS Lambda function that includes environment variables, timeout settings, and memory allocation",
     "format": "json"
   },
   {
-    "task": "Write a Python function that takes an AWS region code (e.g., 'us-east-1') and returns the corresponding region name (e.g., 'US East (N. Virginia)')",
+    "task": "Write a Python function that takes an AWS S3 bucket name and returns True if the bucket name follows AWS naming conventions (lowercase, 3-63 characters, no underscores)",
     "format": "python"
   }
 ]
